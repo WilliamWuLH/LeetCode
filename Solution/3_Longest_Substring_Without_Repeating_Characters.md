@@ -41,3 +41,25 @@ public:
 };
 ```
 
+#### 滑动窗口：
+
+```c++
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int left = 0, right = 0, ans = 0;
+        map<char,int> m;
+        while(right < s.length()){
+            m[ s[right] ]++;
+            while(m[ s[right] ] > 1){
+                m[ s[left] ]--;
+                left++;
+            }
+            ans = max(ans, right-left+1);
+            right++;
+        }
+        return ans;
+    }
+};
+```
+
