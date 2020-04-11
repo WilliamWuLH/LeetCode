@@ -93,24 +93,24 @@ LeetCode： https://leetcode.com/
 | 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | [287 Find the Duplicate Number](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/287_Find_the_Duplicate_Number.md) | Medium     |
 | 289  | [Game of Life](https://leetcode.com/problems/game-of-life)   | [289 Game of Life](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/289_Game_of_Life.md) | Medium     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |                                                              | Hard       |
-| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |                                                              | Medium     |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [300 Longest Increasing Subsequence](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/300_Longest_Increasing_Subsequence.md) | Medium     |
 | 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) |                                                              | Hard       |
 | 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) |                                                              | Medium     |
 | 312  | [ Burst Balloons](https://leetcode.com/problems/burst-balloons) |                                                              | Hard       |
-| 322  | [Coin Change](https://leetcode.com/problems/coin-change)     |                                                              | Medium     |
+| 322  | [Coin Change](https://leetcode.com/problems/coin-change)     | [322 Coin Change](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/322_Coin_Change.md) | Medium     |
 | 337  | [ House Robber III](https://leetcode.com/problems/house-robber-iii) |                                                              | Medium     |
-| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits) |                                                              | Medium     |
-| 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) |                                                              | Medium     |
-| 394  | [Decode String](https://leetcode.com/problems/decode-string) |                                                              | Medium     |
+| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits) | [338 Counting Bits](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/338_Counting_Bits.md) | Medium     |
+| 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | [347 Top K Frequent Elements](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/347_Top_K_Frequent_Elements.md) | Medium     |
+| 394  | [Decode String](https://leetcode.com/problems/decode-string) | [394 Decode String](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/394_Decode_String.md) | Medium     |
 | 399  | [ Evaluate Division](https://leetcode.com/problems/evaluate-division) |                                                              | Medium     |
 | 406  | [ Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) |                                                              | Medium     |
-| 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) |                                                              | Easy       |
+| 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [409 Longest Palindrome](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/409_Longest_Palindrome.md) | Easy       |
 | 416  | [ Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) |                                                              | Medium     |
-| 437  | [ Path Sum III](https://leetcode.com/problems/path-sum-iii)  |                                                              | Easy       |
-| 438  | [ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) |                                                              | Medium     |
-| 448  | [ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |                                                              | Easy       |
-| 461  | [ Hamming Distance](https://leetcode.com/problems/hamming-distance) |                                                              | Easy       |
-| 494  | [ Target Sum](https://leetcode.com/problems/target-sum)      |                                                              | Medium     |
+| 437  | [ Path Sum III](https://leetcode.com/problems/path-sum-iii)  | [437 Path Sum III](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/437_Path_Sum_III.md) | Easy       |
+| 438  | [ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) | [438 Find All Anagrams in a String](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/438_Find_All_Anagrams_in_a_String.md) | Medium     |
+| 448  | [ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [448 Find All Numbers Disappeared in an Array](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/448_Find_All_Numbers_Disappeared_in_an_Array.md) | Easy       |
+| 461  | [ Hamming Distance](https://leetcode.com/problems/hamming-distance) | [461 Hamming Distance](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/461_Hamming_Distance.md) | Easy       |
+| 494  | [ Target Sum](https://leetcode.com/problems/target-sum)      | [494 Target Sum](https://github.com/WilliamWuLH/LeetCode/blob/master/Solution/494_Target_Sum.md) | Medium     |
 | 538  | [ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) |                                                              | Easy       |
 | 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) |                                                              | Easy       |
 | 560  | [ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |                                                              | Medium     |
