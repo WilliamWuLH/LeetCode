@@ -94,23 +94,23 @@ LeetCode： https://leetcode.com/
 | 289  | [Game of Life](https://leetcode.com/problems/game-of-life)   |          | Medium     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |          | Hard       |
 | 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |          | Medium     |
-| 301  |                                                              |          |            |
-| 309  |                                                              |          |            |
-| 312  |                                                              |          |            |
-| 322  |                                                              |          |            |
-| 337  |                                                              |          |            |
-| 338  |                                                              |          |            |
-| 347  |                                                              |          |            |
-| 394  |                                                              |          |            |
-| 399  |                                                              |          |            |
-| 406  |                                                              |          |            |
-| 409  |                                                              |          |            |
-| 416  |                                                              |          |            |
-| 437  |                                                              |          |            |
-| 438  |                                                              |          |            |
-| 448  |                                                              |          |            |
-| 461  |                                                              |          |            |
-| 494  |                                                              |          |            |
+| 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) |          | Hard       |
+| 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) |          | Medium     |
+| 312  | [ Burst Balloons](https://leetcode.com/problems/burst-balloons) |          | Hard       |
+| 322  | [Coin Change](https://leetcode.com/problems/coin-change)     |          | Medium     |
+| 337  | [ House Robber III](https://leetcode.com/problems/house-robber-iii) |          | Medium     |
+| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits) |          | Medium     |
+| 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) |          | Medium     |
+| 394  | [Decode String](https://leetcode.com/problems/decode-string) |          | Medium     |
+| 399  | [ Evaluate Division](https://leetcode.com/problems/evaluate-division) |          | Medium     |
+| 406  | [ Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) |          | Medium     |
+| 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) |          | Easy       |
+| 416  | [ Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) |          | Medium     |
+| 437  | [ Path Sum III](https://leetcode.com/problems/path-sum-iii)  |          | Easy       |
+| 438  | [ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) |          | Medium     |
+| 448  | [ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |          | Easy       |
+| 461  | [ Hamming Distance](https://leetcode.com/problems/hamming-distance) |          | Easy       |
+| 494  | [ Target Sum](https://leetcode.com/problems/target-sum)      |          | Medium     |
 | 538  |                                                              |          |            |
 | 543  |                                                              |          |            |
 | 560  |                                                              |          |            |
