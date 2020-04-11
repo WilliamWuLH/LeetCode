@@ -111,21 +111,21 @@ LeetCode： https://leetcode.com/
 | 448  | [ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |          | Easy       |
 | 461  | [ Hamming Distance](https://leetcode.com/problems/hamming-distance) |          | Easy       |
 | 494  | [ Target Sum](https://leetcode.com/problems/target-sum)      |          | Medium     |
-| 538  |                                                              |          |            |
-| 543  |                                                              |          |            |
-| 560  |                                                              |          |            |
-| 581  |                                                              |          |            |
-| 617  |                                                              |          |            |
-| 621  |                                                              |          |            |
-| 647  |                                                              |          |            |
-| 739  |                                                              |          |            |
-| 820  |                                                              |          |            |
-| 836  |                                                              |          |            |
-| 876  |                                                              |          |            |
-| 892  |                                                              |          |            |
-| 914  |                                                              |          |            |
-| 945  |                                                              |          |            |
-| 999  |                                                              |          |            |
-| 1111 |                                                              |          |            |
-| 1160 |                                                              |          |            |
+| 538  | [ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) |          | Easy       |
+| 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) |          | Easy       |
+| 560  | [ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |          | Medium     |
+| 581  | [ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) |          | Easy       |
+| 617  | [ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) |          | Easy       |
+| 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) |          | Medium     |
+| 647  | [ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |          | Medium     |
+| 739  | [ Daily Temperatures](https://leetcode.com/problems/daily-temperatures) |          | Medium     |
+| 820  | [ Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words) |          | Medium     |
+| 836  | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) |          | Easy       |
+| 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) |          | Easy       |
+| 892  | [ Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes) |          | Easy       |
+| 914  | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards) |          | Easy       |
+| 945  | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique) |          | Medium     |
+| 999  | [ Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook) |          | Easy       |
+| 1111 | [ Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) |          | Medium     |
+| 1160 | [ Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters) |          | Easy       |
 
