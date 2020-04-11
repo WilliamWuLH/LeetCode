@@ -32,7 +32,7 @@ LeetCode： https://leetcode.com/
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) |          | Hard       |
 | 33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) |          | Medium     |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |          | Medium     |
-| 35   |                                                              |          |            |
+| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position) |          | Easy       |
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum) |          | Medium     |
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |          | Hard       |
 | 46   | [Permutations](https://leetcode.com/problems/permutations)   |          | Medium     |
@@ -66,34 +66,34 @@ LeetCode： https://leetcode.com/
 | 139  | [Word Break](https://leetcode.com/problems/word-break)       |          | Medium     |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) |          | Easy       |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) |          | Medium     |
-| 144  |                                                              |          |            |
-| 145  |                                                              |          |            |
+| 144  | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) |          | Medium     |
+| 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) |          | Hard       |
 | 146  | [LRU Cache](https://leetcode.com/problems/lru-cache)         |          | Medium     |
 | 148  | [Sort List](https://leetcode.com/problems/sort-list)         |          | Medium     |
-| 151  |                                                              |          |            |
+| 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) |          | Medium     |
 | 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |          | Medium     |
 | 155  | [Min Stack](https://leetcode.com/problems/min-stack)         |          | Easy       |
 | 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) |          | Easy       |
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element) |          | Easy       |
 | 198  | [House Robber](https://leetcode.com/problems/house-robber)   |          | Easy       |
 | 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands) |          | Medium     |
-| 206  |                                                              |          |            |
-| 207  |                                                              |          |            |
-| 208  |                                                              |          |            |
-| 215  |                                                              |          |            |
-| 221  |                                                              |          |            |
-| 226  |                                                              |          |            |
-| 234  |                                                              |          |            |
-| 236  |                                                              |          |            |
-| 238  |                                                              |          |            |
-| 239  |                                                              |          |            |
-| 240  |                                                              |          |            |
-| 279  |                                                              |          |            |
-| 283  |                                                              |          |            |
-| 287  |                                                              |          |            |
-| 289  |                                                              |          |            |
-| 297  |                                                              |          |            |
-| 300  |                                                              |          |            |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |          | Easy       |
+| 207  | [ Course Schedule](https://leetcode.com/problems/course-schedule) |          | Medium     |
+| 208  | [ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) |          | Medium     |
+| 215  | [ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) |          | Medium     |
+| 221  | [Maximal Square](https://leetcode.com/problems/maximal-square) |          | Medium     |
+| 226  | [ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) |          | Easy       |
+| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) |          | Easy       |
+| 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) |          | Medium     |
+| 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) |          | Medium     |
+| 239  | [ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) |          | Hard       |
+| 240  | [ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) |          | Medium     |
+| 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares) |          | Medium     |
+| 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes)     |          | Easy       |
+| 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) |          | Medium     |
+| 289  | [Game of Life](https://leetcode.com/problems/game-of-life)   |          | Medium     |
+| 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) |          | Hard       |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |          | Medium     |
 | 301  |                                                              |          |            |
 | 309  |                                                              |          |            |
 | 312  |                                                              |          |            |
