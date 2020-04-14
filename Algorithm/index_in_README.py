@@ -1,7 +1,7 @@
 import os
 import re
-README_path = './README.md'
-solution_path = './solution'
+README_path = 'F:\LeetCode/README.md'
+solution_path = 'F:\LeetCode/solution'
 README_index = []
 solution_index = []
 
