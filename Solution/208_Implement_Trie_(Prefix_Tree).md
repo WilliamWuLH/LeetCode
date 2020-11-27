@@ -1,5 +1,25 @@
 ## Implement Trie (Prefix Tree)
 
+Implement a trie with `insert`, `search`, and `startsWith` methods.
+
+**Example:**
+
+```
+Trie trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");   // returns true
+trie.search("app");     // returns false
+trie.startsWith("app"); // returns true
+trie.insert("app");   
+trie.search("app");     // returns true
+```
+
+**Note:**
+
+- You may assume that all inputs are consist of lowercase letters `a-z`.
+- All inputs are guaranteed to be non-empty strings.
+
 #### Trie 前缀树：
 
 ​		由于所有的输入都是由小写字母 `a-z` 构成的，所以我干脆一个树结点定义有26个孩子结点。

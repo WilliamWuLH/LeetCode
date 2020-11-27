@@ -1,5 +1,28 @@
 ## N-Queens II
 
+The **n-queens** puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other.
+
+Given an integer `n`, return *the number of distinct solutions to the **n-queens puzzle***.
+
+**Example 1:**
+
+```
+Input: n = 4
+Output: 2
+Explanation: There are two distinct solutions to the 4-queens puzzle as shown.
+```
+
+**Example 2:**
+
+```
+Input: n = 1
+Output: 1
+```
+
+**Constraints:**
+
+- `1 <= n <= 9`
+
 #### 回溯法 backtrack：
 
 ​		经典 N 皇后问题，找有几个解，还是回溯法 + 剪枝，每一行（或者每一列）固定只有一个皇后，给皇后选择位置。

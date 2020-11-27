@@ -1,5 +1,24 @@
 ## Subsets II
 
+Given a collection of integers that might contain duplicates, ***nums\***, return all possible subsets (the power set).
+
+**Note:** The solution set must not contain duplicate subsets.
+
+**Example:**
+
+```
+Input: [1,2,2]
+Output:
+[
+  [2],
+  [1],
+  [1,2,2],
+  [2,2],
+  [1,2],
+  []
+]
+```
+
 #### 回溯法 + 去重：
 
 ​		回溯法可以遍历每一种子集的情况。

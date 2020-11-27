@@ -1,5 +1,30 @@
 ## Remove Invalid Parentheses
 
+Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
+
+**Note:** The input string may contain letters other than the parentheses `(` and `)`.
+
+**Example 1:**
+
+```
+Input: "()())()"
+Output: ["()()()", "(())()"]
+```
+
+**Example 2:**
+
+```
+Input: "(a)())()"
+Output: ["(a)()()", "(a())()"]
+```
+
+**Example 3:**
+
+```
+Input: ")("
+Output: [""]
+```
+
 #### BFS 的变形：
 
 删除最小数量的无效括号，使得输入的字符串有效，返回所有可能的结果。

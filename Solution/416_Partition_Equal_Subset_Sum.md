@@ -1,5 +1,28 @@
 ## Partition Equal Subset Sum
 
+Given a **non-empty** array `nums` containing **only positive integers**, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+
+**Example 1:**
+
+```
+Input: nums = [1,5,11,5]
+Output: true
+Explanation: The array can be partitioned as [1, 5, 5] and [11].
+```
+
+**Example 2:**
+
+```
+Input: nums = [1,2,3,5]
+Output: false
+Explanation: The array cannot be partitioned into equal sum subsets.
+```
+
+**Constraints:**
+
+- `1 <= nums.length <= 200`
+- `1 <= nums[i] <= 100`
+
 #### 动态规划（类似于 0-1 背包问题）：
 
 ​		遍历数组中的每个数字，对于每个数字遍历所有的容量，判断在该容量下数字可不可以放入，放入后能不能满足要求。
