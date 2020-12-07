@@ -1,5 +1,8 @@
 # LeetCode
-Step by step!
+
+![Language](https://img.shields.io/badge/Language-C%2B%2B-red) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/williamwulh/Leetcode)
+
+:computer: :white_check_mark: Step by step!
 
 LeetCode  :  https://leetcode.com/ 
 
