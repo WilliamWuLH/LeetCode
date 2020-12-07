@@ -45,14 +45,14 @@ public:
         int ans = 0, flag = 0;
         for(int i=0; i<m; i++){
             if(A[i][0] == 0)
-                flag &= 1<<;
+                flag += 1<<i;
         }
         ans += m * pow(2, n-1);
         for(int i=1; i<n; i++){
             int count = 0;
             for(int j=0; j<m; j++)
-                if((A[j][i] == 1 && flag[j] == 0) || (A[j][i] == 0 && flag[j] == 1))
-                    count++;
+                if((A[j][i] == 1 && (flag&(1<<j)) == 0) || (A[j][i] == 0 && (flag&(1<<j))))
+                    count++;                    
             if(count > m/2)
                 ans += count * pow(2, n-1-i);
             else
