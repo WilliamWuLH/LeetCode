@@ -59,3 +59,51 @@ public:
 };
 ```
 
+### 2020.12.27 再思考：
+
+#### 使用 unordered_map 可以优化：
+
+```c++
+class Solution {
+public:
+    bool isIsomorphic(string s, string t) {
+        int slen = s.length();
+        int tlen = t.length();
+        if(slen != tlen)
+            return false;
+        unordered_map<char, char> s2t;
+        unordered_map<char, char> t2s;
+        for(int i=0; i<slen; i++){
+            if((s2t.count(s[i]) && s2t[s[i]] != t[i]) || (t2s.count(t[i]) && t2s[t[i]] != s[i]))
+                return false;
+            s2t[s[i]] = t[i];
+            t2s[t[i]]  =s[i];
+        }
+        return true;
+    }
+};
+```
+
+#### 使用 char 数组终极优化：
+
+```c++
+class Solution {
+public:
+    bool isIsomorphic(string s, string t) {
+        int slen = s.length();
+        int tlen = t.length();
+        char s2t[128];
+        char t2s[128];
+        memset(s2t, 0, sizeof(char)*128);
+        memset(t2s, 0, sizeof(char)*128);
+        for(int i=0; i<slen; i++){
+            if((s2t[s[i]] != 0 && s2t[s[i]] != t[i]) || (t2s[t[i]] != 0 && t2s[t[i]] != s[i]))
+                return false;
+            s2t[s[i]] = t[i];
+            t2s[t[i]]  =s[i];
+        }
+        return true;
+    }
+};
+```
+
