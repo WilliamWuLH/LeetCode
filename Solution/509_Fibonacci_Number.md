@@ -53,3 +53,35 @@ public:
 };
 ```
 
+#### 2021.1.4 再回首
+
+#### 动态规划：
+
+```c++
+class Solution {
+public:
+    int fib(int N) {
+        int f0 = 0, f1 = 1, f2;
+        for(int i=2; i<=N; i++){
+            f2 = f0 + f1;
+            f0 = f1;
+            f1 = f2;
+        }
+        return N < 2 ? N : f2;
+    }
+};
+```
+
+#### 通项公式：
+
+```c++
+class Solution {
+public:
+    int fib(int N) {
+        double sqrt5 = sqrt(5);
+        double fibN = pow((1 + sqrt5) / 2, N) - pow((1 - sqrt5) / 2, N);
+        return round(fibN / sqrt5);
+    }
+};
+```
+
