@@ -80,6 +80,8 @@ Output: 0
 
 ​		考虑第 i = 0 天时的四个状态，buy1 即为以 prices[0] 的价格买入股票，因此 buy1 = −prices[0]，sell1 即为在同一天买入并且卖出，因此 sell1 = 0，buy2 即为在同一天买入并且卖出后再以 prices[0] 的价格买入股票，因此 buy2 = −prices[0]，同理可得 sell2 = 0。我们将这四个状态作为边界条件，从 i = 1 开始进行动态规划，即可得到答案。
 
+**参考：[力扣官方题解](https://leetcode-cn.com/u/leetcode-solution/)**
+
 **具体代码如下：**
 
 ```c++
@@ -99,6 +101,10 @@ public:
 };
 ```
 
+### 接下来是结合了题目 188. Best Time to Buy and Sell Stock IV
+
+[188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+
 #### 更加通用的代码形式：
 
 ```c++
@@ -107,14 +113,48 @@ public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         const int k = 2;
-        int buy[k] = {-prices[0], -prices[0]}, sell[k] = {0, 0};
+        if(n <= 0 || k <= 0)
+            return 0;
+        vector<vector<int>> buy(n, vector<int>(k, 0));
+        vector<vector<int>> sell(n, vector<int>(k, 0));
+        for(int i=0; i<k; i++){
+            buy[0][i] = -prices[0];
+            sell[0][i] = 0;
+        }
+        for(int i=1; i<n; i++){
+            buy[i][0] = max(buy[i-1][0], -prices[i]);
+            sell[i][0] = max(sell[i-1][0], buy[i][0] + prices[i]);
+            for(int j=1; j<k; j++){
+                buy[i][j] = max(buy[i-1][j], sell[i-1][j-1] - prices[i]);
+                sell[i][j] = max(sell[i-1][j], buy[i][j] + prices[i]);
+            }
+        }
+        return *max_element(sell[n - 1].begin(), sell[n - 1].end());
+    }
+};
+```
+
+#### 通用代码形式的优化（二维  -->  一维）：
+
+```c++
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        const int k = 2;
+        if(n <= 0 || k <= 0)
+            return 0;
+        vector<int> buy(k, -prices[0]);
+        vector<int> sell(k, 0);
         for(int i=1; i<n; i++){
             buy[0] = max(buy[0], -prices[i]);
             sell[0] = max(sell[0], buy[0] + prices[i]);
-            buy[1] = max(buy[1], sell[0] - prices[i]);
-            sell[1] = max(sell[1], buy[1] + prices[i]);
+            for(int j=1; j<k; j++){
+                buy[j] = max(buy[j], sell[j-1] - prices[i]);
+                sell[j] = max(sell[j], buy[j] + prices[i]);
+            }
         }
-        return sell[1];
+        return *max_element(sell.begin(), sell.end());
     }
 };
 ```
