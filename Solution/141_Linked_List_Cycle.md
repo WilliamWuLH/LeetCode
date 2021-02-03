@@ -38,6 +38,41 @@ Explanation: There is no cycle in the linked list.
 
 **Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
 
+#### 2021.2.3 再回首：
+
+#### 快慢指针：
+
+注意：指针在进行声明的时候：\* 表示变量是一个指针，前面的类型表示指针所指向的变量的类型。
+
+​		使用快慢指针的思路很简单：
+
+- 如果链表中存在环形链表，那么最后快指针一定会遇到慢指针，这是一定的，可以通过数学推导证明。
+- 如果链表不存在环形链表，那么快指针最后会指向 NULL。
+
+```c++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        ListNode *slow = head, *fast = head;
+        while(fast != NULL && fast->next != NULL){
+            fast = fast->next->next;
+            slow = slow->next;
+            if(fast == slow)
+                return true;
+        }
+        return false;
+    }
+};
+```
+
 #### 方法一：
 
 ```c++
