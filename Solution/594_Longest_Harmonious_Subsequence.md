@@ -33,6 +33,28 @@ Output: 0
 - `1 <= nums.length <= 2 * 10^4`
 - `-10^9 <= nums[i] <= 10^9`
 
+#### 2021.2.4 再回首：
+
+#### 哈希计数 + 单次扫描：
+
+```c++
+class Solution {
+public:
+    int findLHS(vector<int>& nums) {
+        map<int, int> hash;
+        int ans = 0;
+        for(auto &i : nums){
+            hash[i]++;
+            if(hash.count(i+1))
+                ans = max(ans, hash[i] + hash[i+1]);
+            if(hash.count(i-1))
+                ans = max(ans, hash[i] + hash[i-1]);
+        }
+        return ans;
+    }
+};
+```
+
 #### 计数：
 
 ```c++
