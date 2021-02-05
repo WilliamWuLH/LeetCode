@@ -43,6 +43,40 @@ Output: "/c"
 - `path` consists of English letters, digits, period `'.'`, slash `'/'` or `'_'`.
 - `path` is a valid Unix path.
 
+#### 2021.2.5 再回首：栈
+
+​		新写的代码，更加简洁！
+
+​		把一层一层的打开的文件夹看作是栈，此题就相当简单了，只剩下字符串的处理。
+
+```c++
+class Solution {
+public:
+    string simplifyPath(string path) {
+        stack<string> p;
+        string cur = "";
+        path += "/";
+        for(auto &i : path){
+            if(i != '/')
+                cur += i;
+            else{
+                if(cur == ".." && !p.empty())
+                    p.pop();
+                else if(cur != "" && cur != "." && cur != "..")
+                    p.push(cur);
+                cur = "";
+            }
+        }
+        cur = "";
+        while(!p.empty()){
+            cur = "/" + p.top() + cur;
+            p.pop();
+        }
+        return cur == "" ? "/" : cur;
+    }
+};
+```
+
 #### 文件夹的路径——栈：
 
 ​		把一层一层的打开的文件夹看作是栈，此题就相当简单了，只剩下字符串的处理。
