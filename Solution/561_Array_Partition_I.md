@@ -28,6 +28,14 @@ Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5
 - `nums.length == 2 * n`
 - `-10^4 <= nums[i] <= 10^4`
 
+#### 2021.2.16 再回首
+
+​		给定长度为 2n 的整数数组 nums ，要将这些数分成 n 对, 例如 (a1, b1), (a2, b2), ..., (an, bn) ，使得从 1 到 n 的 min(ai, bi) 总和最大。
+
+​		求 min(ai, bi) 那么就必然要牺牲一个数，既然要牺牲一个数，那就使得牺牲的代价最小。
+
+​		**参考：[力扣官方题解](https://leetcode-cn.com/problems/array-partition-i/solution/shu-zu-chai-fen-i-by-leetcode-solution-9m9y/)**
+
 #### 排序：
 
 ```c++
