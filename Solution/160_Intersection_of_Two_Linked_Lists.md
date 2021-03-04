@@ -35,6 +35,12 @@ Explanation: The two lists do not intersect, so return null.
 - Each value on each linked list is in the range `[1, 10^9]`.
 - Your code should preferably run in O(n) time and use only O(1) memory.
 
+#### 2021.3.4 再回首
+
+​		路的长度相同，只是起点不同。如果两条链表注定相交，那么终点就是交点。
+
+​		参考：[力扣 (LeetCode)](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/xiang-jiao-lian-biao-by-leetcode/)
+
 #### 双指针 + 数学推导：
 
 ```c++
