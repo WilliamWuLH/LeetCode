@@ -23,9 +23,10 @@ class DisjointSetUnion
 
         int find(int x){
             if(path_compression){
-                if(x != f[x])
-                    f[x] = find(f[x]);
-                return f[x];
+                // if(x != f[x])
+                //     f[x] = find(f[x]);
+                // return f[x];
+                return x == f[x] ? f[x] : f[x] = find(f[x]);
             }
             else{
                 if(x == f[x])
