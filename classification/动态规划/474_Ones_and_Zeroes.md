@@ -49,7 +49,7 @@ Explanation: The largest subset is {"0", "1"}, so the answer is 2.
 
 通过以上分析，可以写出状态转移方程：（此时字符串中含有 zeros 个 0 和 ones 个 1）
 
-$dp_{i,j}=\left\{ \begin{array}{lr} \max(dp_{i,j},\  dp_{i-zeros, j-ones}+1),  & zeros\leq i\leq m, ones\leq i\leq n \\ dp_{i, j} & 0 \leq i < zeros, 0 \leq j < ones\end{array}  \right.$
+$dp_{i,j}=\begin{cases} \max(dp_{i,j},\  dp_{i-zeros, j-ones}+1),  & zeros\leq i\leq m, ones\leq i\leq n \\ dp_{i, j} & 0 \leq i < zeros, 0 \leq j < ones  \end{cases}$
 
 
 
