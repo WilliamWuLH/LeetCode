@@ -45,6 +45,23 @@ Output: true
 
 #### 暴力：
 
+```cpp
+class Solution {
+public:
+    bool halvesAreAlike(string s) {
+        int n = s.length(), diff = 0;
+        for(int i=0; i<n/2; i++)
+            diff += isVowels(s[i]) - isVowels(s[n-1-i]);
+        return !diff;
+    }
+    int isVowels(char c){
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+    }
+};
+```
+
+
+
 ```c++
 class Solution {
 public:
