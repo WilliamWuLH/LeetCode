@@ -6,6 +6,24 @@
 #define random(a,b) (rand()%(b-a)+a)
 using namespace std;
 
+/*
+
+堆排序（英语：Heapsort）
+    是指利用 堆 这种数据结构所设计的一种排序算法。
+    堆排序的适用数据结构为数组。
+
+工作原理：
+    它的工作原理为对所有待排序元素建堆，然后依次取出堆顶元素，就可以得到排好序的序列。
+
+性质：
+    稳定性：
+        堆排序是一种不稳定的排序算法。
+
+    时间复杂度：
+        堆排序的最优时间复杂度、平均时间复杂度、最坏时间复杂度均为 O(n log(n))。
+
+*/
+
 void become_heap(vector<int> &array,int start,int end)
 {
     int father=start;
