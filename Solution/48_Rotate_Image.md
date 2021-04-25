@@ -39,6 +39,33 @@ Output: [[3,1],[4,2]]
 - `1 <= n <= 20`
 - `-1000 <= matrix[i][j] <= 1000`
 
+#### 2021.4.25 再回首：
+
+```c++
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int t[4] = {0,0,0,0};
+        for(int i=0; i<n; i++){
+            for(int j=i; j<n-1-i; j++){
+                t[0] = matrix[i][j];
+                t[1] = matrix[j][n-1-i];
+                t[2] = matrix[n-1-i][n-1-j];
+                t[3] = matrix[n-1-j][i];
+                matrix[i][j] = t[3];
+                matrix[j][n-1-i] = t[0];
+                matrix[n-1-i][n-1-j] = t[1];
+                matrix[n-1-j][i] = t[2];
+            }
+        }
+        return;
+    }
+};
+```
+
+
+
 #### 建立辅助矩阵 + 直接旋转：
 
 ```c++
